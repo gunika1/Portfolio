@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: rgb(71, 74, 74);
+    height: 64px;
+
+
+}
+.navbar{
+    display: flex;
+    gap:250px;
+    font-size:44px;
+    list-style: none;
+    margin-top: 10px;
+}
+.myself{
+    margin: top -80px;;
+    padding-top: -80px;;
+background-image: url(2109971\ \(1\).png);
+width: 1513px;
+height: 700px;
+display: inline-block;
+h1{
+    
+    font-size: 130px;
+    color: rgb(125, 149, 170);
+
+}
+p{
+    
+    margin-top: -100px;
+    font-size: 80px;
+    color: rgb(125, 149, 170);
+}
+}
+.next{
+    background-image: url(wallpaperflare.com_wallpaper\ \(1\)\ copy\ 2.jpg); 
+    
+    height: 750px;
+    width: 1531px;
+    display: inline-block;
+    }
+
+.card{
+    
+        background-color:rgb(245, 235, 235);
+        width: 600px;
+        height: auto;
+        margin: auto;
+     h2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        color: rgb(50, 48, 48);
+        text-shadow: 3px 3px 0px grey;
+        
+     }   
+     p2{
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        
+        
+
+        
+     }
+     h3{
+        font-size: 40px;
+        text-align: center;
+     }
+     .list{
+             font-size: 35px;
+             list-style:georgian;
+             text-align: center;
+
+     }
+    }
+    .port{
+        background-image: url(2331906.jpg);
+        height: 750px;
+        width:1531px;
+
+    }
+    .marsheet{
+        background-color: whitesmoke;
+        height: 45px;
+        width: 45px;
+    }
+        
+   
+     
+
+  
+
+    
+ 
