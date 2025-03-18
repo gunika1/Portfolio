@@ -1,27 +1,37 @@
-body{
-    margin: 0;
+@media screen (max-width:153px)body {
+    
+}
+ body  { margin: 0;
     padding: 0;
 }
 nav{
     display: flex;
-    background-color: rgb(71, 74, 74);
+    background-color: grey;
     height: 64px;
+    
 
 
 }
+
 .navbar{
     display: flex;
     gap:250px;
     font-size:44px;
     list-style: none;
     margin-top: 10px;
+    
 }
-.myself{
+
+
+
+#myself{
     margin: top -80px;;
-    padding-top: -80px;;
+    padding-top: -80px;
+    
+    
 background-image: url(2109971\ \(1\).png);
 width: 1513px;
-height: 700px;
+height: 663px;
 display: inline-block;
 h1{
     
@@ -36,11 +46,12 @@ p{
     color: rgb(125, 149, 170);
 }
 }
-.next{
+#next{
     background-image: url(wallpaperflare.com_wallpaper\ \(1\)\ copy\ 2.jpg); 
     
-    height: 750px;
+    height: 730px;
     width: 1531px;
+    object-fit: cover;
     display: inline-block;
     }
 
@@ -80,17 +91,127 @@ p{
 
      }
     }
-    .port{
+    #port{
         background-image: url(2331906.jpg);
-        height: 750px;
-        width:1531px;
+        height: 730px;
+        width: 1531px;
+        object-fit: contain;
 
     }
-    .marsheet{
-        background-color: whitesmoke;
-        height: 45px;
-        width: 45px;
+     #port{
+        display: flex;
+        gap: 300px;
+     }
+    .marksheets{
+        background-color: beige;
+        border-color: beige;
+        width: 350px;
+        height: 350px;
+        border-width: 2px;
+        margin-left: 67px;
+        margin-top: 67PX;
+        margin-left: 200PX;
+        border-radius: 20px;
+        text-align: center;
+        
+        .add{
+            font-size: 25px;
+            color: grey;
+            text-decoration: none;
+            text-shadow: 3px 3px 3px;
+        }
+        p8{
+        font-size: 24px;
+    text-align: center;}
+         
     }
+    .resume{
+        background-color: beige;
+        border-color: beige;
+        width: 380px;
+        height: 380px;
+        border-width: 2px;
+        margin-left: 67px;
+        margin-top: 67PX;
+        margin-left: 76PX;
+        border-radius: 20px;
+        text-align: center;
+        .break{
+            font-size: 25px;
+            color: grey;
+            text-decoration: none;
+            text-shadow: 3px 3px 3px;
+        }
+        p4{
+        font-size: 24px;
+    text-align: center;}
+         
+    }
+    #Contactme{
+        margin: 0;
+         
+        margin-top: -170px;
+         background-image: url(2518723\ \(1\).jpg);
+         height: 730px;
+         width: 1531px;
+         object-fit: cover;
+    }
+    h5{
+        font-size: 100px;
+        text-align: center;
+        color: brown;
+    }
+    .email{
+        text-decoration: none;
+        color: black;
+        img{
+        height: 100px;
+        width: auto;
+    margin-left: 34px;}
+        .me{
+            margin-left: 40px;
+            margin-top: -10px;
+            font-size: 50px;
+    
+        }
+    }
+    .kick{
+        display: flex;
+        gap:40px;
+    }
+    .linkedin{
+        text-decoration: none;
+        color: rgb(16, 16, 16);
+        img{
+            width:auto;
+            height: 100px;
+        }
+    }
+    .abc{
+        font-size:50px;
+        margin-top: -10px;
+    }
+    .git{
+        text-decoration: none;
+        color: rgb(17, 16, 16);
+        img{
+            width: auto;
+            height: 100px;
+        }
+    }
+    .hub{
+        font-size: 50px;
+        margin-top: -10px;
+        color: black;
+    }
+    .xyz{
+        text-decoration: none;
+        color:black;
+    }
+    
+
+        
+    
         
    
      
